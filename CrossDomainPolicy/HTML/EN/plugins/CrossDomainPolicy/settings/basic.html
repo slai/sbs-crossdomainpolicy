@@ -1,0 +1,13 @@
+[% PROCESS settings/header.html %]
+
+	[% WRAPPER setting title="PLUGIN_XDOMPOL_MODULE_NAME" desc="" %]
+		<div class="prefDesc">[% "PLUGIN_XDOMPOL_MODULE_DESC" | string %]</div>
+	[% END %]
+
+	[% WRAPPER settingSection %]
+		[% WRAPPER settingGroup title="PLUGIN_XDOMPOL_ALLOWED_DOMAINS_LABEL" desc="PLUGIN_XDOMPOL_ALLOWED_DOMAINS_DESC" %]
+			<textarea name="pref_allowed_domains" cols="50" rows="8">[% prefs.pref_allowed_domains %]</textarea>
+		[% END %]
+	[% END %]
+
+[% PROCESS settings/footer.html %]

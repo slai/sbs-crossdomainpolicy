@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<extension>
+	<id>9653770B-0327-42AA-B711-CBCF335F98B0</id>
+	<name>PLUGIN_XDOMPOL_MODULE_NAME</name>
+	<module>Plugins::CrossDomainPolicy::Plugin</module>
+	<version>1.0</version>
+	<description>PLUGIN_XDOMPOL_MODULE_DESC</description>
+	<creator>edgylogic</creator>
+	<defaultState>enabled</defaultState>
+	<homepageURL>http://edgylogic.com/projects/sbs-crossdomainpolicy</homepageURL>
+	<optionsURL>plugins/CrossDomainPolicy/settings/basic.html</optionsURL>
+	<!--<icon>plugins/CrossDomainPolicy/html/images/icon.png</icon> -->
+	<type>2</type>
+	<targetApplication>
+		<id>Squeezebox Server</id>
+		<minVersion>7.3</minVersion>
+		<maxVersion>*</maxVersion>
+	</targetApplication>
+</extension>

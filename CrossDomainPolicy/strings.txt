@@ -1,0 +1,11 @@
+PLUGIN_XDOMPOL_MODULE_NAME
+	EN	Cross-Domain Policy
+
+PLUGIN_XDOMPOL_MODULE_DESC
+	EN	Provides a cross-domain policy so Flash or Silverlight apps can interact with SqueezeBox Server.
+
+PLUGIN_XDOMPOL_ALLOWED_DOMAINS_LABEL
+	EN	Allowed domains (one per line):
+
+PLUGIN_XDOMPOL_ALLOWED_DOMAINS_DESC
+	EN	Each domain is translated into an allow-access-from directive. Enter 'example.com' to only allow access to content from example.com; '*.example.com' to only allow access to content from anything at example.com; '*' to allow access from all content regardless of origin.
